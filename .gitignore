@@ -128,5 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Visual Studio Code settings
-.vscode
+# Visual Studio Code
+testing.py
+base_classes.py
