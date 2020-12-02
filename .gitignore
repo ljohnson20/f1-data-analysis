@@ -131,3 +131,4 @@ dmypy.json
 # Visual Studio Code
 testing.py
 base_classes.py
+.vscode/settings.json
