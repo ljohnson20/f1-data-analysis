@@ -56,3 +56,8 @@ pits = add_ids(data, 'pit_stops')
 print(res.info())
 retires = res.loc[(res['year'] >= 2019) & (res['status'] != 'Finished') & (~res['status'].str.contains("Lap"))]
 print(retires[['number', 'surname']].value_counts())
+
+offences = pd.read_csv('data/fia/driver_offence.csv')
+print(offences.info())
+print(offences)
+print(offences['surname'].value_counts())
